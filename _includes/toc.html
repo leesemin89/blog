@@ -1,24 +1,32 @@
 <!-- Add your table of contents here -->
-<ul class="toc">
-  {% assign prev_level = 0 %}
-  {% assign headings = content | scan /<h([2-6])[^>]*>.*?<\/h[2-6]>/i %}
-  {% for heading in headings %}
-    {% assign current_level = heading | slice: 2, 1 | plus: 0 %}
-    {% if current_level > prev_level %}
-      {% assign diff = current_level | minus: prev_level %}
-      {% for i in (1..diff) %}
-        <ul>
-      {% endfor %}
-    {% elsif current_level < prev_level %}
-      {% assign diff = prev_level | minus: current_level %}
-      {% for i in (1..diff) %}
-        </ul>
-      {% endfor %}
-    {% endif %}
-    {% assign prev_level = current_level %}
-    <li>{{ heading | remove: "</h#{current_level}>" | remove_first: "<h#{current_level}[^>]*>" | strip_html }}</li>
-  {% endfor %}
-  {% for i in (1..prev_level) %}
-    </ul>
-  {% endfor %}
-</ul>
+<!-- toc.html -->
+
+{::options toc_levels="2..4" /}
+
+{% assign heading_levels = "##,###,####" | split: ',' %}
+
+{% assign current_level = 2 %}
+
+{% for heading in headings %}
+  {% assign level = heading | replace: "<h", "" | split: ">" | first | minus: 1 %}
+  {% assign title = heading | replace: "<h#{level + 1}>", "" | replace: "</h#{level + 1}>", "" %}
+  
+  {% if level > current_level %}
+    {% for i in (current_level..level) %}
+      <ul>
+    {% endfor %}
+  {% elsif level < current_level %}
+    {% for i in (level..current_level) reversed %}
+      </ul>
+    {% endfor %}
+  {% endif %}
+  
+  <li><a href="#{{ title | slugify }}">{{ title }}</a></li>
+  
+  {% assign current_level = level %}
+{% endfor %}
+
+{% for i in (current_level..4) reversed %}
+  </ul>
+{% endfor %}
+
