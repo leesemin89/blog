@@ -39,7 +39,7 @@ paginate: true
 - 전 편(스프링부트 시리즈1)에서 롬복 플러그인을 설치하였습니다.
 - 이제 롬복을 사용하기 전 사용 설정을 해두지 않으면 `@어노테이션`을 불러왔을 때 오류가 발생하니 사용 설정이 필요합니다.
   1. 아래와 같이 build.gradle.kts 파일의 dependencies 설정에 `implementation("org.projectlombok:lombok:1.18.22")`을 추가합니다.
-  - ![dependency](https://github.com/leesemin89/blog/blob/master/img/2024-01-29-springboot-devtool/lombok/1.dependency.png?raw=true)
+  - ![dependency](https://github.com/leesemin89/blog/blob/master/img/2024-01-29-springboot-devtool/lombok/1.dependency_new.png?raw=true)
   2. 아래와 같이 Settings > Build, Execution, Deployment > Compiler > Annotation Processors 로 가서 `[x] Enble annotation proccessing`을 체크 하고 OK 버튼을 클릭합니다.
   - ![annotation](https://github.com/leesemin89/blog/blob/master/img/2024-01-29-springboot-devtool/lombok/2.annotation.png?raw=true)
   3. 우측 패널에서 그레이들 패널을 열고 모든 그레이들 프로젝트를 리로드 합니다.
