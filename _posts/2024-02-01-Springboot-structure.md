@@ -20,9 +20,11 @@ author: sammy
 paginate: true
 
 ---
-{::options toc}
+
 
 # 스프링부트 프로젝트 구조 이해하기
+
+![구조](https://github.com/leesemin89/blog/blob/master/img/2024-02-02-springboot-structure/1.png?raw=true)
 
 ## src/main/java 디렉터리 살펴보기
 - src/main/java 디렉터리는 자바 파일을 저장하는 공간입니다.
@@ -70,6 +72,10 @@ SbbApplication 클래스는 반드시 @SpringbootApplication 애너테이션이 
 
 ## src/test/java 디렉터리 살펴보기
 - sbb 프로젝트에서 작성한 파일을 테스트하는 코드를 저장하는 공간입니다.
-- JUnit[^1]과 스프링부트의 테스트 도구를 사용해 서버를 실행하지 않고도 src/main/java 디렉터리의 코드를 테스트 할 수 있습니다.
+- JUnit과 스프링부트의 테스트 도구를 사용해 서버를 실행하지 않고도 src/main/java 디렉터리의 코드를 테스트 할 수 있습니다.
 
-[^1]: JUnit은 테스트코드를 작성 및 실행할 때 쓰이는 자바 테스트 프레임워크입니다.
+ * JUnit은 테스트코드를 작성 및 실행할 때 쓰이는 자바 테스트 프레임워크입니다.
+
+## build.gradle.kts 파일 살펴보기
+- `build.gradle.kts`는 그레이들이 사용하는 환경파일로 프로젝트에 필요한 플러그인과 라이브러리를 설치하기 위한 내용을 작성합니다.
+  
