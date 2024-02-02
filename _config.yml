@@ -117,5 +117,9 @@ version: v3.1.2
 docs_list_title: ACME Documentation
 docs:
 
+# toc
+kramdown:
+  parse_block_html: true
+
 - title: Home
   url: https://leesemin89.github.io/blog/
