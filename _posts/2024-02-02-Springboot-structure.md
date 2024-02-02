@@ -36,7 +36,8 @@ paginate: true
 ## SbbApplication.java 파일
 - 스프링부트에서 시작을 담당하는 파일입니다.
 - `프로젝트명 + Application.java` 파일이 각 프로젝트의 시작을 담당하는 파일명이 됩니다. 
-- 스프링부트 프로젝트 생성 시 프로젝트 명을 sbb로 하면 sbbApplication.java 파일이 자동생성 됩니다.
+- 스프링부트 프로젝트 생성 시 프로젝트 명을 sbb로 하면 sbbApplication.java 파일이 자동생성 됩니다.  
+
 ```
 package com.mysite.sbb;
 
@@ -49,9 +50,8 @@ public class SbbApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SbbApplication.class, args);
 	}
-
 }
-```
+```  
 SbbApplication 클래스는 반드시 @SpringbootApplication 애너테이션이 적용되어 있어야만 합니다.  
 이 애너테이션을 통해 스프링부트 애플리케이션이 시작됩니다.
 
