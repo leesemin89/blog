@@ -20,9 +20,10 @@ author: sammy
 paginate: true
 
 ---
+{:toc}
 
 # 스프링부트 프로젝트 구조 이해하기
-{::options toc}
+
 ## src/main/java 디렉터리 살펴보기
 - src/main/java 디렉터리는 자바 파일을 저장하는 공간입니다.
 
