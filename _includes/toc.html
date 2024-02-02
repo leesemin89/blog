@@ -1,6 +1,24 @@
 <!-- Add your table of contents here -->
-<nav>
-    <h4>Table of Contents</h4>
-    * this unordered seed list will be replaced by toc as unordered list
-    {:toc}
-  </nav>
+<ul class="toc">
+  {% assign prev_level = 0 %}
+  {% assign headings = content | scan /<h([2-6])[^>]*>.*?<\/h[2-6]>/i %}
+  {% for heading in headings %}
+    {% assign current_level = heading | slice: 2, 1 | plus: 0 %}
+    {% if current_level > prev_level %}
+      {% assign diff = current_level | minus: prev_level %}
+      {% for i in (1..diff) %}
+        <ul>
+      {% endfor %}
+    {% elsif current_level < prev_level %}
+      {% assign diff = prev_level | minus: current_level %}
+      {% for i in (1..diff) %}
+        </ul>
+      {% endfor %}
+    {% endif %}
+    {% assign prev_level = current_level %}
+    <li>{{ heading | remove: "</h#{current_level}>" | remove_first: "<h#{current_level}[^>]*>" | strip_html }}</li>
+  {% endfor %}
+  {% for i in (1..prev_level) %}
+    </ul>
+  {% endfor %}
+</ul>
