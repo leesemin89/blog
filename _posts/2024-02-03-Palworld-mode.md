@@ -25,7 +25,7 @@ paginate: true
 
 `Unreal Build Tools`를 사용하려면 시스템에 `.NET6`가 설치되어 있어야 합니다.
 
-`다운로드 x64` 런타임을 다운로드 > ![다운로드](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime?cid=getdotnetcore&os=windows&arch=x64)
+`다운로드 x64` 런타임을 다운로드 > [다운로드](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime?cid=getdotnetcore&os=windows&arch=x64)
 
 ![런타임](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main/1.png?raw=true)
 
@@ -35,7 +35,7 @@ paginate: true
 
 SDK를 컴파일하려면 Visual Studio 2022가 설치되어 있어야 합니다.
 
-![다운로드](https://visualstudio.microsoft.com/vs/)
+[다운로드](https://visualstudio.microsoft.com/vs/)
 
 설치하는 동안 아래와 같은 구성요소를 체크합니다
 ![구성요소](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main/2.png?raw=true)
@@ -53,7 +53,7 @@ SDK를 컴파일하려면 Visual Studio 2022가 설치되어 있어야 합니다
   
 # Wwise 
 팰월드는 사운드에 Wwise를 사용하므로 설치하십시오.
-![다운로드](https://www.audiokinetic.com/en/download)
+[다운로드](https://www.audiokinetic.com/en/download)
   * 사운드를 만들 의도가 없어도 여전히 Wwise가 있어야 프로젝트가 컴파일됩니다.
 
 ![Wwise](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main/6.png?raw=true)
