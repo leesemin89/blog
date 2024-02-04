@@ -73,3 +73,5 @@ C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.11.7933\SDK
   `EngineVersion : 5.0.0` 에서 `EngineVersion : 5.1`로 엔트리를 바꿉니다. 
 
 Wwise 통합이 완료되었습니다.
+---
+이 포스트는 https://pwmodding.wiki/의 모딩가이드 번역본입니다.
