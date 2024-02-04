@@ -2,7 +2,7 @@
 date: 2024-02-03 00:03:10
 layout: post
 title: 팰월드 모드 제작법3
-subtitle: 팰월드 모드 제작 도전하기3.
+subtitle: 팰월드 모드 프로젝트 내보내기
 description: 
 image: 
   https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/title.jpg?raw=true
