@@ -49,3 +49,6 @@ paginate: true
 
 * `Palworld\Pal\Binaries\Win64\Mods\mods.txt` 의 BPModeLoader 가 활성화 되어 있어야 합니다.
   ![활성화](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main3/4.png?raw=true)
+
+  ---
+이 포스트는 https://pwmodding.wiki/의 모딩가이드 번역본입니다.
