@@ -160,6 +160,16 @@
             "articleSection": "{{ page.category }}",
             "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
         }
-        </script>
+        
     </body>
+    </script>
+
+    <script src="https://utteranc.es/client.js"
+    repo="leesemin89/blog"
+    issue-term="pathname"
+    label="comments"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+    </script>
 </html>
