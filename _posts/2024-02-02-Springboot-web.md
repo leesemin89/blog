@@ -47,7 +47,7 @@ paginate: true
   * 콘솔 로그를 살펴보면 index 메서드가 실행한 System.out.println("index")가 실행되어 index라는 문자열이 출력되었으므로, index 메서드가 호출된 것을 확인할 수 있습니다. 
   * ![로그](https://github.com/leesemin89/blog/blob/master/img/2024-02-05-web/3.indexlog.png?raw=true) 
 3. 아래와 같이 MainController.java를 수정하기  
-    ```java
+  ```java
     package com.mysite.sbb;
 
     import org.springframework.stereotype.Controller;
@@ -63,7 +63,7 @@ paginate: true
             return "index";
         }
     }
-    ```
+  ```
   * 'index'라는 문자열을 브라우저에 출력하기위해 index 메서드의 리턴 자료형을 String을 변경하고, 문자열 'index'를 리턴했습니다.
   * @ResponseBody 애너테이션은 URL 요청에 대한 응답으로 문자열을 리턴하라는 의미입니다.
   * 만약, @ResponseBody 애너테이션이 없다면 스프링부트는 'index' 문자열을 리턴하지 않고, 대신 index라는 이름의 템플릿파일을 찾게 됩니다.
