@@ -45,28 +45,28 @@ paginate: true
   * index 메서드가 원래 URL과 매핑된 메서드는 결과값을 리턴해야 하지만 아무 값도 리턴되지 않아 발생한 것입니다.
   * 즉, 오류를 해결하려면 결과값을 리턴해야 합니다.
   * 콘솔 로그를 살펴보면 index 메서드가 실행한 System.out.println("index")가 실행되어 index라는 문자열이 출력되었으므로, index 메서드가 호출된 것을 확인할 수 있습니다. 
-  * [로그](https://github.com/leesemin89/blog/blob/master/img/2024-02-05-web/3.indexlog.png?raw=true) 
-3. 아래와 같이 MainController.java를 수정하기
-  ```java
-  package com.mysite.sbb;
+  * ![로그](https://github.com/leesemin89/blog/blob/master/img/2024-02-05-web/3.indexlog.png?raw=true) 
+3. 아래와 같이 MainController.java를 수정하기  
+    ```java
+    package com.mysite.sbb;
 
-  import org.springframework.stereotype.Controller;
-  import org.springframework.web.bind.annotation.GetMapping;
-  import org.springframework.web.bind.annotation.ResponseBody;
+    import org.springframework.stereotype.Controller;
+    import org.springframework.web.bind.annotation.GetMapping;
+    import org.springframework.web.bind.annotation.ResponseBody;
 
-  @Controller
-  public class MainController {
+    @Controller
+    public class MainController {
 
-      @GetMapping("/sbb")
-      @ResponseBody
-      public String index() {
-          return "index";
-      }
-  }
-  ```
+        @GetMapping("/sbb")
+        @ResponseBody
+        public String index() {
+            return "index";
+        }
+    }
+    ```
   * 'index'라는 문자열을 브라우저에 출력하기위해 index 메서드의 리턴 자료형을 String을 변경하고, 문자열 'index'를 리턴했습니다.
   * @ResponseBody 애너테이션은 URL 요청에 대한 응답으로 문자열을 리턴하라는 의미입니다.
-  * 만약, @ResponseBody 애너테이션이 없다면 스프링부트는 'index' 문자열을 리턴하지 않고, 대신 index라는 이름의 템플릿파일을 찾게 됩니다.  
+  * 만약, @ResponseBody 애너테이션이 없다면 스프링부트는 'index' 문자열을 리턴하지 않고, 대신 index라는 이름의 템플릿파일을 찾게 됩니다.
 4. 오류가 해결되었다면 다시 웹 브라우저에서 `http://localhost:8080/sbb` URL을 호출해보기
   * [인덱스](https://github.com/leesemin89/blog/blob/master/img/2024-02-05-web/4.index.png?raw=true)
 5. MainController.java를 수정해 'Welcome to SBB.' 출력하기
