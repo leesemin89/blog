@@ -20,10 +20,19 @@
             <a href="https://leesemin89.github.io/blog/" class="home-link" role="button">
                 HOME
         </a>
+    {% endif %}
+    </a>
+    {% if site.show_get_theme_btn %}
+        <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
+            Get this theme!
+            <a href="https://leesemin89.github.io/blog/tags" class="tag-link" role="button">
+                Tags
+        </a>
     {% endif %}    
+    </a>
 </header>
 
 <div id="mask" class="overlay"></div>
-{% include links.html %}
+
 {% include menu.html %}
 {% include search.html %}
