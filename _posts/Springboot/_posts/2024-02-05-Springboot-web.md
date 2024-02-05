@@ -1,7 +1,7 @@
 ---
-date: 2024-02-05 00:01:10
+date: 2024-02-05 00:01:00
 layout: post
-title: "간단한 웹 프로그램 제작하기"
+title: "[스프링부트 시리즈5]간단한 웹 프로그램 제작하기"
 subtitle: 간단한 웹 프로그램을 만들어보자.
 description: 
 image: 
