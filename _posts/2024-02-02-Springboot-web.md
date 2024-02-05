@@ -68,24 +68,23 @@ paginate: true
   * @ResponseBody 애너테이션은 URL 요청에 대한 응답으로 문자열을 리턴하라는 의미입니다.
   * 만약, @ResponseBody 애너테이션이 없다면 스프링부트는 'index' 문자열을 리턴하지 않고, 대신 index라는 이름의 템플릿파일을 찾게 됩니다.
 4. 오류가 해결되었다면 다시 웹 브라우저에서 `http://localhost:8080/sbb` URL을 호출해보기
-  * [인덱스](https://github.com/leesemin89/blog/blob/master/img/2024-02-05-web/4.index.png?raw=true)
+  * ![인덱스](https://github.com/leesemin89/blog/blob/master/img/2024-02-05-web/4.index.png?raw=true)
 5. MainController.java를 수정해 'Welcome to SBB.' 출력하기
    ```java
    package com.mysite.sbb;
+    import org.springframework.stereotype.Controller;
+    import org.springframework.web.bind.annotation.GetMapping;
+    import org.springframework.web.bind.annotation.ResponseBody;
 
-  import org.springframework.stereotype.Controller;
-  import org.springframework.web.bind.annotation.GetMapping;
-  import org.springframework.web.bind.annotation.ResponseBody;
+    @Controller
+    public class MainController {
 
-  @Controller
-  public class MainController {
-
-      @GetMapping("/sbb")
-      @ResponseBody
-      public String index() {
-          return "Welcome to SBB.";
-      }
-  }
+        @GetMapping("/sbb")
+        @ResponseBody
+        public String index() {
+            return "Welcome to SBB.";
+        }
+    }
    ```
 6. 브라우저에서 변경된 문자열의 출력확인하기
-  * [문장](https://github.com/leesemin89/blog/blob/master/img/2024-02-05-web/5.returntxt.png?raw=true)
+  * ![문장](https://github.com/leesemin89/blog/blob/master/img/2024-02-05-web/5.returntxt.png?raw=true)
