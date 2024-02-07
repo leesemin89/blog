@@ -69,7 +69,7 @@ C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.11.7933\SDK
 8. `vc170` 해당 폴더를 복사해 `vc160`폴더인 것처럼 복사후 이름을 바꿔 구조가 아래와 같게 만듭니다.   
    ![복사](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main2/3.png?raw=true)
 * Wwise가 현재 언리얼 엔진 버전과 호환되지 않는다는 대화상자를 끄려면 :  
-  텍스트 편집기나 IDE에서 `Plugin\Wwise` ->  `Wwise.uplugin`을 열고  
+  텍스트 편집기나 IDE에서 `Plugins\Wwise` ->  `Wwise.uplugin`을 열고  
   `EngineVersion : 5.0.0` 에서 `EngineVersion : 5.1`로 엔트리를 바꿉니다. 
 
 Wwise 통합이 완료되었습니다.
