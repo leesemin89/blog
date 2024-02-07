@@ -9,7 +9,7 @@ image:
 optimized_image:    
   https://github.com/leesemin89/blog/blob/master/img/2024-01-25-buildtool/p_buildtools%20title.png?raw=true
 category: [ etc ]
-tags:  
+tags: [JAVA, Buildtool]
 author: sammy
 paginate: true
 ---

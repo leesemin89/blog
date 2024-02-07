@@ -7,7 +7,7 @@ layout: null
         <url>
             <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
             {% if page.layout == 'main' %}
-                <changefreq>weekly</changefreq>
+                <changefreq>daily</changefreq>
                 <priority>1</priority>
                 <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
             {% else %}

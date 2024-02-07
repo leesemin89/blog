@@ -9,7 +9,7 @@ image:
 optimized_image:    
   https://github.com/leesemin89/blog/blob/master/img/2024-01-26-intelliJ%20GUI/p_IntelliJ%20title.png?raw=true
 category: [ etc ]
-tags:  
+tags: [IntelliJ, GUI, Designer]
 author: sammy
 paginate: true
 ---

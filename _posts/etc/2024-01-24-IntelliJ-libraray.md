@@ -9,7 +9,7 @@ image:
 optimized_image:    
   https://github.com/leesemin89/blog/blob/master/img/2024-01-24-intelliJ/p_IntelliJ%20title.png?raw=true
 category: [ etc ]
-tags:  
+tags:  [ IntelliJ, SQLight ]
 author: sammy
 paginate: true
 ---
