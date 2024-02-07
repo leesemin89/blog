@@ -63,16 +63,18 @@ SDK를 컴파일하려면 Visual Studio 2022가 설치되어 있어야 합니다
 2. `Wwise` 탭으로 이동.
 3. 화면 왼쪽 상단에 `Install a New Version` 헤더가 있습니다.
 4. Wwise `2021.1.11` 버전을 선택 후 설치하십시오.
-  * SDK(C++)
-  * 마이크로소프트 -> 윈도우 -> 비주얼스튜디오 2022
+  ![2021](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main/7.png?raw=true)
   
-선택항목은 다음과 같습니다
-![선택](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main/7.png?raw=true)
+다음 페이지의 선택항목은 다음과 같습니다
+   * SDK(C++)
+   * 마이크로소프트 -> 윈도우 -> 비주얼스튜디오 2022
+  ![선택](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main/8.png?raw=true)
 
 5. Next를 누르고 플러그인은 스킵.
 6. Wwise SDK 를 설치한 후 `Unreal Engine` 탭으로 이동.
 7. 다운로드 -> `Offline Integration File` 을 선택.
 8. `Integration Version` 에서 `2021.1.11` 을 선택 후 기억하기 쉬운 디렉터리에 설치합니다.
+   
 
 
 ---
