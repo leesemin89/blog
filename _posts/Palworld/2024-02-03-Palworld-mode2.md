@@ -50,7 +50,7 @@ paginate: true
 ![wwise](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main2/2.png?raw=true)
 2. `Unreal.5.0.tar.xz` 아카이브 압축을 풉니다.
     * 이 작업은 2번해야 할 수도 있습니다.
-3. 압축을 푼 `Wwise`폴더를 `Plugins` SDK 폴더에 복사합니다.
+3. 압축을 푼 `Wwise`폴더를 SDK 의 `Plugins` 폴더에 복사합니다.
 4. 필요한 DLL 을 복사합니다.
 5. SDK 내부 `Wwise` 폴더를 열고 `ThridParty` 폴더를 생성합니다.
 6. 이제 Wwise SDK를 설치한 폴더로 이동합니다.
