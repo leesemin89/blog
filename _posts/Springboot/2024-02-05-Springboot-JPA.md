@@ -69,4 +69,7 @@ dependencies {
   annotationProcessor 'org.projectlombok:lombok'
   runtimeOnly 'com.h2database:h2'
 }
+(... 생략 ...)
 ```
+우측 패널의 그레이들 아이콘 선택 후 `Reload All Gradle Projects`를 클릭해 필요한 라이브러리를 설치하자.
+
