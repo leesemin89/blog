@@ -66,7 +66,7 @@ C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.11.7933\SDK
    * x64_vc170  
    * include  
 7. 위에 나열된 폴더들을 이전에 생성한 `ThirdParty` 폴더에 복사합니다.  
-8. `vc170` 해당 폴더를 복사한 후 `vc160` 폴더도 마찬가지로 아래와 같이 복사합니다.   
+8. `vc170` 해당 폴더를 복사해 `vc160`폴더인 것처럼 복사후 이름을 바꿔 구조가 아래와 같게 만듭니다.   
    ![복사](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main2/3.png?raw=true)
 * Wwise가 현재 언리얼 엔진 버전과 호환되지 않는다는 대화상자를 끄려면 :  
   텍스트 편집기나 IDE에서 `Plugin\Wwise` ->  `Wwise.uplugin`을 열고  
