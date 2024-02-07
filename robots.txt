@@ -1,5 +1,3 @@
 # robotstxt.org/
 
 User-agent: *
-Allow: /
-Sitemap: https://leesemin89.github.io/sitemap.xml

@@ -1,8 +1,6 @@
 ---
 layout: category
-title: css
+title: CSS
 slug: css
-category: css
-permalink: 'category/css'
-description: 
+description: A category for CSS related posts.
 ---

@@ -45,10 +45,10 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "https://leesemin89.github.io/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-google_analytics: "G-M69W0WN971"
-language: "ko"
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
@@ -108,6 +108,6 @@ exclude: [
   'gulpfile.js',
   'README.md'
 ]
-category_list: [Springboot, Palword, css, etc]
+
 # Theme
 version: v3.1.2

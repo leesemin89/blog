@@ -11,7 +11,7 @@ layout: null
                 <priority>1</priority>
                 <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
             {% else %}
-                <changefreq>daily</changefreq>
+                <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
             {% endif %}
         </url>
