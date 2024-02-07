@@ -1,7 +1,8 @@
 ---
 layout: category
-title: Blog
+title: blog
 slug: blog
-description: A category for general blog posts.
+category: blog
+permalink: 'category/blog'
+description: 
 ---
-
