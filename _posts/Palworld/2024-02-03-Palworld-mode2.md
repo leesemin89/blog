@@ -57,16 +57,16 @@ paginate: true
    * 통합파일 설치 폴더가 아닌 SDK 설치 폴더입니다.
 
 기본 Wwise SDK 경로
-*****
+```
 C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.11.7933\SDK
-*****
+```
 
 이 폴더에서 다음 3가지를 선택합니다.  
    * Wind32_vc170  
    * x64_vc170  
    * include  
-7. 위에 나열된 폴더들을 이전에 생성한 `ThirdParty` 폴더에 복사합니다.  
-8. `vc170` 해당 폴더를 복사해 `vc160`폴더인 것처럼 복사후 이름을 바꿔 구조가 아래와 같게 만듭니다.   
+1. 위에 나열된 폴더들을 이전에 생성한 `ThirdParty` 폴더에 복사합니다.  
+2. `vc170` 해당 폴더를 복사해 `vc160`폴더인 것처럼 복사후 이름을 바꿔 구조가 아래와 같게 만듭니다.   
    ![복사](https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/main2/3.png?raw=true)
 * Wwise가 현재 언리얼 엔진 버전과 호환되지 않는다는 대화상자를 끄려면 :  
   텍스트 편집기나 IDE에서 `Plugins\Wwise` ->  `Wwise.uplugin`을 열고  
