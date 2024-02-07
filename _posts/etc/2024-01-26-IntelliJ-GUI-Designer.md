@@ -8,11 +8,8 @@ image:
   https://github.com/leesemin89/blog/blob/master/img/2024-01-26-intelliJ%20GUI/IntelliJ%20title.png?raw=true
 optimized_image:    
   https://github.com/leesemin89/blog/blob/master/img/2024-01-26-intelliJ%20GUI/p_IntelliJ%20title.png?raw=true
-category: devlog
-tags:
-    - devlog
-    - IntelliJ
-    - GUI
+category: [ etc ]
+tags:  
 author: sammy
 paginate: true
 ---

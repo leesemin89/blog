@@ -8,13 +8,8 @@ image:
   https://github.com/leesemin89/blog/blob/master/img/2024-01-29-springboot/springboot%20title.jpg?raw=true
 optimized_image:    
   https://github.com/leesemin89/blog/blob/master/img/2024-01-29-springboot/p_springboot%20title.jpg?raw=true
-category: devlog
+category: [Springboot]
 tags:
-    - devlog
-    - intelliJ
-    - Springboot
-    - devtool
-  
 author: sammy
 paginate: true
 ---

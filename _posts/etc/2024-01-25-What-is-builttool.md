@@ -8,15 +8,8 @@ image:
   https://github.com/leesemin89/blog/blob/master/img/2024-01-25-buildtool/buildtools%20title.png?raw=true
 optimized_image:    
   https://github.com/leesemin89/blog/blob/master/img/2024-01-25-buildtool/p_buildtools%20title.png?raw=true
-category: devlog
-tags:
-    - devlog
-    - Maven
-    - Gradle
-    - Ant
-    - Apache
-    - JAVA
-    - Build Tool
+category: [ etc ]
+tags:  
 author: sammy
 paginate: true
 ---
