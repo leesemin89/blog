@@ -5,7 +5,7 @@
         {% include minutes-to-read.html %}
         {% include svg-icons.html %}
         {% include header.html %}
-        {% include codeHeader.html %}
+
         <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
             <article role="article" class="post-content">
                 <p class="post-info">
@@ -159,8 +159,8 @@
             "genre": "{{ page.category }}",
             "articleSection": "{{ page.category }}",
             "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
-        }
-        </script>
+        }                 
+        </script>        
         <script src="https://utteranc.es/client.js"
         repo="leesemin89/blog-comments"
         issue-term="pathname"
@@ -168,6 +168,5 @@
         crossorigin="anonymous"
         async>
         </script>
-        <script src="/assets/js/copyCode.js"></script>
     </body>
 </html>
