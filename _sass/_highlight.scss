@@ -5,6 +5,8 @@ pre {
   color: $accentDark;
   margin: rem(30px) 0;
   font-size: rem(14px);
+  border-radius: 10px;
+  overflow: auto;
 
   @include media(">=sm") {
     font-size: rem(16px);
@@ -15,9 +17,9 @@ pre {
   code {
     @include center(rem(800px));
     padding: 0 rem(20px);
-
+    
     @include media("<sm") {
-      overflow-x: scroll;
+      overflow-x: auto;
     }
   }
 
