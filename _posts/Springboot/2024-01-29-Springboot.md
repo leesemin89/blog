@@ -5,9 +5,9 @@ title: "[스프링부트 시리즈1]인텔리제이와 스프링부트(Spring Bo
 subtitle: 인텔리제이와 스프링부트를 사용한 개발환경 준비
 description: 
 image: 
-  https://github.com/leesemin89/blog/blob/master/img/2024-01-29-springboot/springboot%20title.jpg?raw=true
+  '../img/2024/Jan/2024-01-29-springboot/title.jpg'
 optimized_image:    
-  https://github.com/leesemin89/blog/blob/master/img/2024-01-29-springboot/p_springboot%20title.jpg?raw=true
+  '../img/2024/Jan/2024-01-29-springboot/p_title.jpg'
 category: [Springboot]
 tags:
 author: sammy
@@ -83,7 +83,7 @@ paginate: true
     * Lombok 플러그인 설치
       * 인텔리J Preference > Plugin   
       * 'Lombok' 검색 후 설치  
-      * ![Lombok](https://github.com/leesemin89/blog/blob/master/img/Controller/Lombok.png?raw=true)
+      * ![Lombok](../img/2024/Jan/2024-01-29-Controller/Lombok.png)
     * 자동 적용 환경 설정  
       * Preference > Build, Execution, Deployment > Compiler  
       - [x] Build project automatically 체크 및 OK 클릭.
@@ -96,7 +96,7 @@ paginate: true
         spring.thymeleaf.cache=false
         spring.thymeleaf.prefix=file:src/main/resources/templates/
         ```
-      * ![app](https://github.com/leesemin89/blog/blob/master/img/Controller/app.png?raw=true)
+      * ![app](../img/2024/Jan/2024-01-29-Controller/app.png)
     * Unused 경고 메시지 꺼놓기.
       * 커뮤니티 버전은 스프링을 지원하지 않아 컨트롤러 및 URL 매핑 메서드에서 Unused 경고 메시지가 발생하기 때문에 끄는게 좋습니다.
       * Preference > Editor > Inspections 
@@ -148,22 +148,22 @@ paginate: true
   - `Http://localhost:8080/hello` 라는 브라우저 요청을 처리할 컨트롤러를 만들어보겠습니다.
   
   - 아래와 같이 src > main > java 디렉터리의 com.mysite.sbb 패키지를 오른 클릭해 새 자바클래스를 만듭니다.
-    - ![new](https://github.com/leesemin89/blog/blob/master/img/Controller/1.png?raw=true)
+    - ![new](../img/2024/Jan/2024-01-29-Controller/1.png)
     
   - 새 자바 클래스의 이름은 HelloController입니다.  
-    - ![hello](https://github.com/leesemin89/blog/blob/master/img/Controller/2.png?raw=true)
+    - ![hello](../img/2024/Jan/2024-01-29-Controller/2.png)
 
   - 새로 생성된 HelloController 클래스는 아래와 같이 빈 파일입니다.
-    - ![hello2](https://github.com/leesemin89/blog/blob/master/img/Controller/3.png?raw=true)
+    - ![hello2](../img/2024/Jan/2024-01-29-Controller/3.png)
   
   - HelloController 클래스를 아래와 같이 코딩합니다.
-    - ![Hello3](https://github.com/leesemin89/blog/blob/master/img/Controller/4.png?raw=true)
+    - ![Hello3](../img/2024/Jan/2024-01-29-Controller/4.png)
   
   - 아래와 같이 우측에 있는 그레이들 패널을 켠 후 Application 아래 bootRun 파일을 우클릭 후 Run 합니다.
-    - ![Run](https://github.com/leesemin89/blog/blob/master/img/Controller/5.png?raw=true)
+    - ![Run](../img/2024/Jan/2024-01-29-Controller/5.png)
   
   - 서버가 제대로 실행되었다면 아래와 같은 메시지가 나옵니다.
-    - ![server](https://github.com/leesemin89/blog/blob/master/img/Controller/6.png?raw=true)
+    - ![server](../img/2024/Jan/2024-01-29-Controller/6.png)
     
   - 크롬 브라우저를 켜고 주소창에 `http://localhost:8080/hello` 를 적습니다. 아래와 같은 응답이 나와야 제대로 작동한 것 입니다.
-    - ![chrome](https://github.com/leesemin89/blog/blob/master/img/Controller/7.png?raw=true)
+    - ![chrome](../img/2024/Jan/2024-01-29-Controller/7.png)
