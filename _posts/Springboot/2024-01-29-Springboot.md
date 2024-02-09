@@ -7,7 +7,7 @@ description:
 image: 
   '../img/2024/Jan/2024-01-29-springboot/title.jpg'
 optimized_image:    
-  '../img/2024/Jan/2024-01-29-springboot/p_title.jpg'
+  './img/2024/Jan/2024-01-29-springboot/p_title.jpg'
 category: [Springboot]
 tags:
 author: sammy
@@ -148,22 +148,22 @@ paginate: true
   - `Http://localhost:8080/hello` 라는 브라우저 요청을 처리할 컨트롤러를 만들어보겠습니다.
   
   - 아래와 같이 src > main > java 디렉터리의 com.mysite.sbb 패키지를 오른 클릭해 새 자바클래스를 만듭니다.
-    - ![new](../img/2024/Jan/2024-01-29-Controller/1.png)
+    - ![new](../img/2024/Jan/2024-01-29-Controller/main/1.png)
     
   - 새 자바 클래스의 이름은 HelloController입니다.  
-    - ![hello](../img/2024/Jan/2024-01-29-Controller/2.png)
+    - ![hello](../img/2024/Jan/2024-01-29-Controller/main/2.png)
 
   - 새로 생성된 HelloController 클래스는 아래와 같이 빈 파일입니다.
-    - ![hello2](../img/2024/Jan/2024-01-29-Controller/3.png)
+    - ![hello2](../img/2024/Jan/2024-01-29-Controller/main/3.png)
   
   - HelloController 클래스를 아래와 같이 코딩합니다.
-    - ![Hello3](../img/2024/Jan/2024-01-29-Controller/4.png)
+    - ![Hello3](../img/2024/Jan/2024-01-29-Controller/main/4.png)
   
   - 아래와 같이 우측에 있는 그레이들 패널을 켠 후 Application 아래 bootRun 파일을 우클릭 후 Run 합니다.
-    - ![Run](../img/2024/Jan/2024-01-29-Controller/5.png)
+    - ![Run](../img/2024/Jan/2024-01-29-Controller/main/5.png)
   
   - 서버가 제대로 실행되었다면 아래와 같은 메시지가 나옵니다.
-    - ![server](../img/2024/Jan/2024-01-29-Controller/6.png)
+    - ![server](../img/2024/Jan/2024-01-29-Controller/main/6.png)
     
   - 크롬 브라우저를 켜고 주소창에 `http://localhost:8080/hello` 를 적습니다. 아래와 같은 응답이 나와야 제대로 작동한 것 입니다.
-    - ![chrome](../img/2024/Jan/2024-01-29-Controller/7.png)
+    - ![chrome](../img/2024/Jan/2024-01-29-Controller/main/7.png)

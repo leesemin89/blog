@@ -4,9 +4,9 @@ layout: post
 title: 지킬 블로그 로컬호스트 구동문제
 subtitle:  bash를 사용해 로컬호스트 서버를 작동했을때 문제해결
 image: 
-  https://github.com/leesemin89/blog/blob/master/img/VSCode.png?raw=true
+  '../img/2024/feb/2024-02-09-localhost/title.png'
 optimized_image:    
-  https://github.com/leesemin89/blog/blob/master/img/2024-01-22-1st/P_VSCode.png?raw=true
+  './img/2024/feb/2024-02-09-localhost/p_title.png'
 category: [ blog ]
 tags: [ locahost, Blog ]
 author: sammy
@@ -22,11 +22,11 @@ paginate: true
     * baseurl에는 이 블로그 경로가 `github/blog` 이므로 `/blog`를 설정합니다.
     * url에는 내 블로그의 주소를 설정합니다. 
 
-    * ![config]()
+    * ![config](../img/2024/feb/2024-02-09-localhost/main/1.config.png)
 
 이렇게 설정하면 bash 에서 이러한 에러메시지를 뿜습니다.
 
-1. 이 블로그의 원 제작자가 설정해둔 경로가 달라졌기 때문에 에러메시지가 발생한 부분을 찾아 앞에 `/blog`를 붙여해 올바른 경로를 만듭니다.
-    * ![배쉬]()
-    * ![에러]()
+2. 이 블로그의 원 제작자가 설정해둔 경로가 달라졌기 때문에 에러메시지가 발생한 부분을 찾아 앞에 `/blog`를 붙여해 올바른 경로를 만듭니다.
+    * ![배쉬](../img/2024/feb/2024-02-09-localhost/main/2.bash.png)
+    * ![에러](../img/2024/feb/2024-02-09-localhost/main/3.address.png)
 

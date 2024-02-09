@@ -5,9 +5,9 @@ title: 팰월드 모드 제작법5
 subtitle: 에셋 스와핑
 description: 
 image: 
-  https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/title.jpg?raw=true
+  '../img/2024/feb/2024-02-03-palworld/title.jpg'
 optimized_image:    
-  https://github.com/leesemin89/blog/blob/master/img/2024-02-03-palworld/p_title.jpg?raw=true
+  './img/2024/feb/2024-02-03-palworld/p_title.jpg'
 category: [palworld]
 tags:  
 author: sammy

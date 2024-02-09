@@ -7,7 +7,7 @@ description:
 image: 
   '../img/2024/Jan/2024-01-24-intelliJ/IntelliJ%20title.png'
 optimized_image:    
-  '../img/2024/Jan/2024-01-24-intelliJ/p_IntelliJ%20title.png'
+  './img/2024/Jan/2024-01-24-intelliJ/p_IntelliJ%20title.png'
 category: [ etc ]
 tags:  [ IntelliJ, SQLight ]
 author: sammy

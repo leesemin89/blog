@@ -7,7 +7,7 @@ description:
 image: 
   '../img/2024/Jan/2024-01-25-buildtool/buildtools%20title.png'
 optimized_image:    
-  '../img/2024/Jan/2024-01-25-buildtool/p_buildtools%20title.png'
+  './img/2024/Jan/2024-01-25-buildtool/p_buildtools%20title.png'
 category: [ etc ]
 tags: [JAVA, Buildtool]
 author: sammy
