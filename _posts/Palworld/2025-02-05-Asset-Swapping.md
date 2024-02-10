@@ -7,7 +7,7 @@ description:
 image: 
   '../img/2024/feb/2024-02-03-palworld/title.jpg'
 optimized_image:    
-  './img/2024/feb/2024-02-03-palworld/p_title.jpg'
+  '../img/2024/feb/2024-02-03-palworld/p_title.jpg'
 category: [palworld]
 tags:  
 author: sammy

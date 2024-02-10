@@ -5,9 +5,9 @@ title: 인텔리제이 GUI 디자이너 튜토리얼
 subtitle: 인텔리제이 내장 기능인 GUI 디자이너를 사용해 기초적인 GUI 앱을 만들어보자
 description: 
 image: 
-  './img/2024/Jan/2024-01-26-intelliJ-GUI/title.png'
+  '../img/2024/Jan/2024-01-26-intelliJ-GUI/title.png'
 optimized_image:    
-  './img/2024/Jan/2024-01-26-intelliJ-GUI/p_title.png'
+  '../img/2024/Jan/2024-01-26-intelliJ-GUI/p_title.png'
 category: [ etc ]
 tags: [IntelliJ, GUI, Designer]
 author: sammy

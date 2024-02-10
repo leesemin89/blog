@@ -5,9 +5,9 @@ title: 자바 빌드 툴이란 무엇인가
 subtitle: 자바 빌드용 툴에 대해 알아보자
 description: 
 image: 
-  './img/2024/Jan/2024-01-25-buildtool/buildtools%20title.png'
+  '../img/2024/Jan/2024-01-25-buildtool/buildtools%20title.png'
 optimized_image:    
-  './img/2024/Jan/2024-01-25-buildtool/p_buildtools%20title.png'
+  '../img/2024/Jan/2024-01-25-buildtool/p_buildtools%20title.png'
 category: [ etc ]
 tags: [JAVA, Buildtool]
 author: sammy
