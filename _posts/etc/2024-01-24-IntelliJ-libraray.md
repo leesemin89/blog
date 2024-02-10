@@ -5,9 +5,9 @@ title: 인텔리J에 외부 라이브러리 추가하는 법
 subtitle: 인텔리J를 IDE로서 외부 라이브러리를 사용해보자
 description: 
 image: 
-  '../img/2024/Jan/2024-01-24-intelliJ/IntelliJ%20title.png'
+  '../assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ_title.png'
 optimized_image:    
-  '../img/2024/Jan/2024-01-24-intelliJ/p_IntelliJ%20title.png'
+  'assets/img/uploads/2024/jan/2024-01-24-intelliJ/p_IntelliJ_title.png'
 category: [ etc ]
 tags:  [ IntelliJ, SQLight ]
 author: sammy
@@ -29,16 +29,16 @@ paginate: true
 # 인텔리J에서 자바 프로젝트에 쓰일 외부 라이브러리 추가하기
 
 ## 1. File -> Project Structure  
-  * ![image1](../img/2024/Jan/2024-01-24-intelliJ/IntelliJ1.png)
+  * ![image1](../assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ1.png)
 
 ## 2. Module -> Java Project -> Dependencies
-  * ![image2](../img/2024/Jan/2024-01-24-intelliJ/IntelliJ2.png)
+  * ![image2](../assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ2.png)
    
 ## 3. + button -> JARs or 디렉토리    
-  * ![image3](../img/2024/Jan/2024-01-24-intelliJ/IntelliJ3.png)
+  * ![image3](../assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ3.png)
      
 ## 4. 추가할 JAR 라이브러리를 디스크에서 선택
-  * ![image4](../img/2024/Jan/2024-01-24-intelliJ/IntelliJ4.png)
+  * ![image4](../assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ4.png)
      
 ## 5. 확인 버튼을 눌러 적용
-  * ![image5](../img/2024/Jan/2024-01-24-intelliJ/IntelliJ5.png)
+  * ![image5](../assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ5.png)

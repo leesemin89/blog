@@ -5,9 +5,9 @@ title: "[스프링부트 시리즈5]간단한 웹 프로그램 제작하기"
 subtitle: 간단한 웹 프로그램을 만들어보자.
 description: 
 image: 
-  '../img/2024/feb/2024-02-02-springboot-structure/title.jpg'
+  '../assets/img/uploads/2024/feb/2024-02-02-springboot-structure/title.jpg'
 optimized_image:    
-  './img/2024/feb/2024-02-02-springboot-structure/p_title.jpg'
+  'assets/img/uploads/2024/feb/2024-02-02-springboot-structure/p_title.jpg'
 category: [Springboot]
 tags:
 author: sammy
@@ -22,7 +22,7 @@ paginate: true
 1. 인텔리제이의 로컬서버 구동하기
   * 컨트롤러의 로컬서버 구동법이 기억나지 않는다면 -> [바로가기](https://leesemin89.github.io/blog/SpringBoot/#%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 2. `http://localhost:8080/sbb` 페이지 요청하기
-  * ![404](..\img\2024\feb\2024-02-05-web\1.whitelabel.png)
+  * ![404](../assets/img/uploads/2024/feb/2024-02-05-web/1.whitelabel.png)
   로컬서버가 구동중이지만 로컬호스트 연결 요청시 페이지를 찾을 수 없다는 404 오류가 발생합니다.
 
 ## 컨트롤러를 만들어 URL 매핑하기

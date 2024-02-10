@@ -5,9 +5,9 @@ title: "[스프링부트 시리즈1]인텔리제이와 스프링부트(Spring Bo
 subtitle: 인텔리제이와 스프링부트를 사용한 개발환경 준비
 description: 
 image: 
-  '../img/2024/Jan/2024-01-29-springboot/title.jpg'
+  '../assets/img/uploads/2024/jan/2024-01-29-springboot/title.jpg'
 optimized_image:    
-  './img/2024/Jan/2024-01-29-springboot/p_title.jpg'
+  'assets/img/uploads/2024/jan/2024-01-29-springboot/p_title.jpg'
 category: [Springboot]
 tags:
 author: sammy
@@ -83,7 +83,7 @@ paginate: true
     * Lombok 플러그인 설치
       * 인텔리J Preference > Plugin   
       * 'Lombok' 검색 후 설치  
-      * ![Lombok](../img/2024/Jan/2024-01-29-Controller/Lombok.png)
+      * ![Lombok](../assets/img/uploads/2024/jan/2024-01-29-springboot/Lombok.png)
     * 자동 적용 환경 설정  
       * Preference > Build, Execution, Deployment > Compiler  
       - [x] Build project automatically 체크 및 OK 클릭.
@@ -96,7 +96,7 @@ paginate: true
         spring.thymeleaf.cache=false
         spring.thymeleaf.prefix=file:src/main/resources/templates/
         ```
-      * ![app](../img/2024/Jan/2024-01-29-Controller/app.png)
+      * ![app](../assets/img/uploads/2024/jan/2024-01-29-springboot/app.png)
     * Unused 경고 메시지 꺼놓기.
       * 커뮤니티 버전은 스프링을 지원하지 않아 컨트롤러 및 URL 매핑 메서드에서 Unused 경고 메시지가 발생하기 때문에 끄는게 좋습니다.
       * Preference > Editor > Inspections 
@@ -148,22 +148,22 @@ paginate: true
   - `Http://localhost:8080/hello` 라는 브라우저 요청을 처리할 컨트롤러를 만들어보겠습니다.
   
   - 아래와 같이 src > main > java 디렉터리의 com.mysite.sbb 패키지를 오른 클릭해 새 자바클래스를 만듭니다.
-    - ![new](../img/2024/Jan/2024-01-29-Controller/main/1.png)
+    - ![new](../assets/img/uploads/2024/jan/2024-01-29-springboot/main/1.png)
     
   - 새 자바 클래스의 이름은 HelloController입니다.  
-    - ![hello](../img/2024/Jan/2024-01-29-Controller/main/2.png)
+    - ![hello](../assets/img/uploads/2024/jan/2024-01-29-springboot/main/2.png)
 
   - 새로 생성된 HelloController 클래스는 아래와 같이 빈 파일입니다.
-    - ![hello2](../img/2024/Jan/2024-01-29-Controller/main/3.png)
+    - ![hello2](../assets/img/uploads/2024/jan/2024-01-29-springboot/main/3.png)
   
   - HelloController 클래스를 아래와 같이 코딩합니다.
-    - ![Hello3](../img/2024/Jan/2024-01-29-Controller/main/4.png)
+    - ![Hello3](../assets/img/uploads/2024/jan/2024-01-29-springboot/main/4.png)
   
   - 아래와 같이 우측에 있는 그레이들 패널을 켠 후 Application 아래 bootRun 파일을 우클릭 후 Run 합니다.
-    - ![Run](../img/2024/Jan/2024-01-29-Controller/main/5.png)
+    - ![Run](../assets/img/uploads/2024/jan/2024-01-29-springboot/main/5.png)
   
   - 서버가 제대로 실행되었다면 아래와 같은 메시지가 나옵니다.
-    - ![server](../img/2024/Jan/2024-01-29-Controller/main/6.png)
+    - ![server](../assets/img/uploads/2024/jan/2024-01-29-springboot/main/6.png)
     
   - 크롬 브라우저를 켜고 주소창에 `http://localhost:8080/hello` 를 적습니다. 아래와 같은 응답이 나와야 제대로 작동한 것 입니다.
-    - ![chrome](../img/2024/Jan/2024-01-29-Controller/main/7.png)
+    - ![chrome](../assets/img/uploads/2024/jan/2024-01-29-springboot/main/7.png)

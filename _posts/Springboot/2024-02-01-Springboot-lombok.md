@@ -5,9 +5,9 @@ title: "[스프링부트 시리즈3]인텔리제이에서 롬복 사용해보기
 subtitle: 롬복이 제공하는 편리함을 느껴보자
 description: 
 image: 
-  '../img/2024/feb/2024-02-01-lombok/title.jpg'
-optimized_image:    
-  './img/2024/feb/2024-02-01-lombok/p_title.jpg'
+  '../assets/img/uploads/2024/feb/2024-02-01-lombok/title.jpg'
+optimized_image:
+  'assets/img/uploads/2024/feb/2024-02-01-lombok/title.jpg'
 category: [Springboot]
 tags:
 author: sammy
