@@ -4,9 +4,9 @@ layout: post
 title: 지킬 블로그 로컬호스트 구동문제
 subtitle:  bash를 사용해 로컬호스트 서버를 작동했을때 문제해결
 image: 
-  '../img/2024/feb/2024-02-09-localhost/title.png'
+  https://github.com/leesemin89/blog/blob/master/img/2024/Feb/2024-02-09-localhost/title.png
 optimized_image:    
-  './img/2024/feb/2024-02-09-localhost/p_title.png'
+  https://github.com/leesemin89/blog/blob/master/img/2024/Feb/2024-02-09-localhost/p_title.png
 category: [ blog ]
 tags: [ locahost, Blog ]
 author: sammy
