@@ -50,7 +50,7 @@ layout: main
                     </a>
                 </span>
                 <div class="box-body">
-                    <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="cover" href="{{ post.url }}">
                         {% include loader.html %}
                         {% if post.optimized_image %}
                             <img src="/blog/assets/img/placeholder.png" width="100%" data-url="{{ post.optimized_image }}" class="preload">

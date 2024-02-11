@@ -57,7 +57,7 @@ paginate: true
       GuiConsoleVisible = 1
       EnableHotReloadSystem = 1 `Ctrl + R`로 재로드를 활성화 합니다.
 
-```
+```markdown
 ❗ **주의**
 UE4SS가 로드 시 흰 콘솔 스크린이 나타나면 `GraphicsAPI`를 dx11 로 변경하세요.
 ```
@@ -108,7 +108,7 @@ Asset Swapping 튜토리얼의 설치 단계를 따르십시오.
     ![3](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-05-LuaModdingTool/3.png)
 
 당신의 개발 관련 모든 것은 Mods/YOUR_MOD_FOLDER에 있을 것이며, 헤더 파일을 검색하려면 CXXHeaderDump를 사용하고, 데이터 테이블을 검색하려면 DataTable 폴더를 사용하면 됩니다.
-```
+```markdown
 **NOTE**
 우리는 `Mods`를 모드의 루트 폴더로 사용합니다. 왜냐하면 UE4SS의 라이브러리 정보와 생성된 Lua 유형이 `Mods/shared`에 있기 때문입니다. 이렇게 하지 않고 인텔리센스 지원을 받으려면 매번 이를 모든 모드에 복사해야 합니다.
 ```
