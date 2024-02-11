@@ -1,8 +1,8 @@
 ---
-date: 2024-02-05 00:02:10
+date: 2024-02-10 00:02:10
 layout: post
-title: 팰월드 모드 제작법4
-subtitle: 루아모드 만들기
+title: 팰월드 모드 제작법5
+subtitle: 루아모드 구조에 대해 알아보자
 description: 
 image: 
   '../assets/img/uploads/2024/feb/2024-02-03-palworld/title.jpg'
@@ -14,21 +14,22 @@ author: sammy
 paginate: true
 ---
 
-# Lua Interop 루아 상호운용성
-
-## 루아 모드 만들기
-
+# 루아 모드 구조 
+*****
+이제 툴이 설정되었으니 Lua 모드를 생성하려면 다음을 따르십시오.  
 1. 루아 모드를 생성하려면 UE4SS 가 설치된 디렉토리로의 `mods` 폴더로 가십시오.
 2. 그 폴더 안에서 `TestLuaInteroMod` 📁 폴더를 생성하십시오.
 3. 이 폴더를 열고 다음 폴더와 파일 하나를 생성하십시오.
    * 📁 `Scripts` 폴더 - 모든 루아 스크립트를 저장합니다.
    * 📝 `enabled.txt` 텍스트파일- 이 파일은 UE4SS에게 모드가 활성화되었음을 알립니다.
 
-`Scripts` 폴더를 열고 `main.lua` 파일을 생성합니다.
-이 파일은 이 모드의 엔트리 포인트가 되며, 모든 로직을 이 파일 내에서 수행할 것입니다.
+폴더를 열고 `main.lua` 파일을 생성합니다. 이 파일은 모드의 진입점이자 모든 로직이 처리되는 파일입니다.
 
 폴더 구조는 다음과 같습니다.  
-![폴더구조](../assets/img/uploads/2024/feb/2024-02-03-palworld/lua/1.folderlogic.png)
+![폴더구조](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/1.folderlogic.png)
+이제 `main.lua` 파일을 열고 코드를 써봅시다.
+
+## 
 
 ## 루아의 후킹 기능
 이 튜토리얼에는 파티에서 팰을 소환하는 기능을 연결합니다.
@@ -100,7 +101,7 @@ end)
   여전히 메시지가 출력되지 않으면 `mods.txt` 를 편집해 모드를 포함하고 해당 모드를 활성화합니다.
   ```
 로그는 아래와 같습니다.  
-![로그](../assets/img/uploads/2024/feb/2024-02-03-palworld/lua/2.print.png)
+![로그](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/2.print.png)
 
   ```markdown
   ❕NOTE
@@ -126,11 +127,11 @@ end)
 ```
 이렇게 하고 나면 UE4SS에서 `Restart All Modes` 버튼을 누를수 있습니다.
 
-![리스타트버튼](../assets/img/uploads/2024/feb/2024-02-03-palworld/lua/3.restartButton.png)
+![리스타트버튼](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/3.restartButton.png)
 
 모드를 다시 로드한 후 타이틀 화면으로 돌아가 월드에 재접속하십시오.
 이제 파티에 있는 팰을 하나 던져보면 콘솔에 다음과 같이 출력됩니다.  
-![콘솔로그](../assets/img/uploads/2024/feb/2024-02-03-palworld/lua/4.consolLog.png)
+![콘솔로그](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/4.consolLog.png)
 
 이제 누가 파티에서 팰을 소환할때마다 알림을 받게 됩니다.
 이제 유용한 작업을 수행해봅시다. 이 튜토리얼의 목적을 위한 팰을 약간 축소시켜봅니다.
@@ -174,6 +175,6 @@ A : 우리가 후크 내부에서 얻는 일부 매개변수는 실제로 우리
 
 따라서 이 코드는 컴포넌트 인스턴스를 가져와 현재 활성 슬롯 인덱스로부터 친구 액터를 가져온 다음, 해당 액터의 3D 액터 스케일을 원래 값의 60%로 설정합니다. 게임으로 이동하여 확인해 보겠습니다!
 
-![팰사이즈](../assets/img/uploads/2024/feb/2024-02-03-palworld/lua/5.palSize.jpg)
+![팰사이즈](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/5.palSize.jpg)
 
 

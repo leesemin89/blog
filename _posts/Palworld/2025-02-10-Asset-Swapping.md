@@ -1,7 +1,7 @@
 ---
-date: 2024-02-05 00:03:10
+date: 2024-02-10 00:03:10
 layout: post
-title: 팰월드 모드 제작법5
+title: 팰월드 모드 제작법6
 subtitle: 에셋 스와핑
 description: 
 image: 
