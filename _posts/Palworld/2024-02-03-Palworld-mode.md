@@ -8,7 +8,7 @@ image:
   'assets/img/uploads/2024/feb/2024-02-03-palworld/title.jpg'
 optimized_image:    
   'assets/img/uploads/2024/feb/2024-02-03-palworld/p_title.jpg'
-category: [palworld]
+category: [ palworld ]
 tags:  
 author: sammy
 paginate: true
