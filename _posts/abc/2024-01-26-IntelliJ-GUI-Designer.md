@@ -8,7 +8,7 @@ image:
   'assets/img/uploads/2024/jan/2024-01-26-intelliJ-GUI/title.png'
 optimized_image:    
   'assets/img/uploads/2024/jan/2024-01-26-intelliJ-GUI/p_title.png'
-category: [ etc ]
+category: abc
 tags: [IntelliJ, GUI, Designer]
 author: sammy
 paginate: true

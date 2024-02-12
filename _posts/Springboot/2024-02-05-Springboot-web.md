@@ -8,7 +8,7 @@ image:
   'assets/img/uploads/2024/feb/2024-02-02-springboot-structure/title.jpg'
 optimized_image:    
   'assets/img/uploads/2024/feb/2024-02-02-springboot-structure/p_title.jpg'
-category: [Springboot]
+category: springboot
 tags:
 author: sammy
 paginate: true

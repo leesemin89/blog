@@ -1,8 +1,7 @@
 ---
 layout: category
 title: Springboot
-slug: Springboot
-category: Springboot
-permalink: 'category/Springboot'
+slug: springboot
+permalink: 'category/springboot'
 description: 
 ---

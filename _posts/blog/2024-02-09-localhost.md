@@ -7,7 +7,7 @@ image:
   'assets/img/uploads/2024/feb/2024-02-09-localhost/title.png'
 optimized_image:    
   'assets/img/uploads/2024/feb/2024-02-09-localhost/p_title.png'
-category: [ blog ]
+category: blog
 tags: [ locahost, Blog ]
 author: sammy
 paginate: true

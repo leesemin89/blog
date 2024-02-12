@@ -8,7 +8,7 @@ image:
   'assets\img\uploads\2024\feb\2024-02-01-lombok\title.jpg'
 optimized_image:    
   'assets\img\uploads\2024\feb\2024-02-01-lombok\p_title.jpg'
-category: [Springboot]
+category: springboot
 tags:
 author: sammy
 paginate: true

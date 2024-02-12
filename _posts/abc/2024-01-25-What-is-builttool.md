@@ -8,7 +8,7 @@ image:
   'assets/img/uploads/2024/jan/2024-01-25-buildtool/title.png'
 optimized_image:    
   'assets/img/uploads/2024/jan/2024-01-25-buildtool/p_title.png'
-category: [ etc ]
+category: abc
 tags: [JAVA, Buildtool]
 author: sammy
 paginate: true

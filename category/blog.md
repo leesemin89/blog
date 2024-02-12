@@ -1,6 +1,6 @@
 ---
 layout: category
-title: blog
+title: Blog
 slug: blog
 category: blog
 permalink: 'category/blog'
