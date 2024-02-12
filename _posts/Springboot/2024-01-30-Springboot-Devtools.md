@@ -5,7 +5,7 @@ title: "[스프링부트 시리즈2]인텔리제이에 스프링부트 Devtools 
 subtitle: 파일에 변경사항이 있을 시 자동 업데이트를 하도록 인텔리제이 설정하기
 description: 
 image: 
-  '../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/title.jpg'
+  'assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/title.jpg'
 optimized_image:    
   'assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/p_title.jpg'
 category: [Springboot]

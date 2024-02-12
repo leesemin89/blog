@@ -5,7 +5,7 @@ title: "[스프링부트 시리즈4]스프링부트 프로젝트 구조 이해�
 subtitle: 스프링부트를 사용한 프로젝트 구조는 어떻게 되어있을까?
 description: 
 image: 
-  '../assets/img/uploads/2024/feb/2024-02-02-springboot-structure/title.jpg'
+  'assets/img/uploads/2024/feb/2024-02-02-springboot-structure/title.jpg'
 optimized_image:    
   'assets/img/uploads/2024/feb/2024-02-02-springboot-structure/p_title.jpg'
 category: [Springboot]
