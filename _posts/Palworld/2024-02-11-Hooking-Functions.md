@@ -5,7 +5,7 @@ title: 팰월드 모드 제작법7
 subtitle: 후킹 함수 개요 보기.
 description: 
 image: 
-  '../assets/img/uploads/2024/feb/2024-02-03-palworld/title.jpg'
+  'assets/img/uploads/2024/feb/2024-02-03-palworld/title.jpg'
 optimized_image:    
   'assets/img/uploads/2024/feb/2024-02-03-palworld/p_title.jpg'
 category: [palworld]
