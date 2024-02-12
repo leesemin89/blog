@@ -5,9 +5,9 @@ title: "[스프링부트 시리즈4]스프링부트 프로젝트 구조 이해�
 subtitle: 스프링부트를 사용한 프로젝트 구조는 어떻게 되어있을까?
 description: 
 image: 
-  '../img/2024/feb/2024-02-02-springboot-structure/title.jpg'
+  '../assets/img/uploads/2024/feb/2024-02-02-springboot-structure/title.jpg'
 optimized_image:    
-  './img/2024/feb/2024-02-02-springboot-structure/p_title.jpg'
+  'assets/img/uploads/2024/feb/2024-02-02-springboot-structure/p_title.jpg'
 category: [Springboot]
 tags:
 author: sammy
@@ -17,7 +17,7 @@ paginate: true
 
 # 스프링부트 프로젝트 구조 이해하기
 
-![구조](../img/2024/feb/2024-02-02-springboot-structure/1.png)
+![구조](../assets/img/uploads/2024/feb/2024-02-02-springboot-structure/1.png)
 
 ## src/main/java 디렉터리 살펴보기
 - src/main/java 디렉터리는 자바 파일을 저장하는 공간입니다.

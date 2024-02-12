@@ -5,9 +5,9 @@ title: "[스프링부트 시리즈2]인텔리제이에 스프링부트 Devtools 
 subtitle: 파일에 변경사항이 있을 시 자동 업데이트를 하도록 인텔리제이 설정하기
 description: 
 image: 
-  '../img/2024/Jan/2024-01-29-springboot/title.jpg'
+  '../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/title.jpg'
 optimized_image:    
-  './img/2024/Jan/2024-01-29-springboot/title.jpg'
+  'assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/p_title.jpg'
 category: [Springboot]
 tags:
 author: sammy
@@ -20,26 +20,27 @@ paginate: true
 - 인텔리제이 커뮤니티 IEDA 에디션은 Spring boot devtools을 지원하지 않는다. 따라서 수동으로 설치해줄 필요가 있다.
   
 - 아래와 같이 전 포스트에 작성했던 `HelloController` 클래스에서 'Hello'를 바꿔보아도 서버를 재시작하기 전까지는 로컬호스트 서버에 해당 변경사항이 반영이 되지 않는 것을 알 수 있다.
-  - ![Hello](../img/2024/Jan/2024-01-29-springboot-devtool/devtool/1.png)
+  - ![Hello](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/devtool/1.png)
 - 아래와 같이 build.gradle.kts 파일을 찾아 열고 dependencies 종속성 괄호 안에 `developmentOnly("org.springframework.boot:spring-boot-devtools")`를 추가한 뒤 저장한다.
   - developmentOnly 는 해당 라이브러리는 개발 환경에만 적용한다는 의미로서 배포용 jar, war 파일에는 해당 라이브러리가 포함되지 않는다.
-  - ![build](../img/2024/Jan/2024-01-29-springboot-devtool/devtool/2.png)
+  - ![build](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/devtool/2.png)
 - 우측 그레이들 패널을 열고 Reload all gradle projects를 선택한다.
-  - ![reload](../img/2024/Jan/2024-01-29-springboot-devtool/devtool/3.png)
+  - ![reload](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/devtool/3.png)
 - 필요한 모든 파일을 저장 후 인텔리제이를 재시작하면 Spring boot devtools 가 적용되었으니 다시 `http://localhost:8080/hello`를 열고 `HelloController`의 'Hello' 문구를 수정 후 저장, 로컬호스트 페이지를 새로고침 해서 서버 재시작 없이 변경 사항이 적용 되는지 확인하자.
-  - ![devtools](../img/2024/Jan/2024-01-29-springboot-devtool/devtool/4.png)
-  - ![devtools](../img/2024/Jan/2024-01-29-springboot-devtool/devtool/5.png)
+  - ![devtools](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/devtool/4.png)
+  - ![devtools](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/devtool/5.png)
   
 ## 인텔리제이에 롬복 설치 및 사용 설정하기
 - 전 편(스프링부트 시리즈1)에서 롬복 플러그인을 설치하였습니다.
 - 이제 롬복을 사용하기 전 사용 설정을 해두지 않으면 `@어노테이션`을 불러왔을 때 오류가 발생하니 사용 설정이 필요합니다.
   1. 아래와 같이 build.gradle.kts 파일의 dependencies 설정에 `implementation("org.projectlombok:lombok:1.18.22")`을 추가합니다.
-  - ![dependency](../img/2024/Jan/2024-01-29-springboot-devtool/lombok/1.dependency_new.png)
+  - ![dependency](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/lombok/1.dependency_new.png)
   2. 아래와 같이 Settings > Build, Execution, Deployment > Compiler > Annotation Processors 로 가서 `[x] Enble annotation proccessing`을 체크 하고 OK 버튼을 클릭합니다.
-  - ![annotation](../img/2024/Jan/2024-01-29-springboot-devtool/lombok/2.annotation.png)
+  - ![annotation](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/lombok/2.annotation.png)
   3. 우측 패널에서 그레이들 패널을 열고 모든 그레이들 프로젝트를 리로드 합니다.
-  - ![gradle](../img/2024/Jan/2024-01-29-springboot-devtool/lombok/3.gradle.png)
+  - ![gradle](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/lombok/3.gradle.png)
   4. `com.mysite.sbb` 패키지 아래에 새 클래스 `HelloLombok`을 아래와 같이 작성합니다.
-  - ![HelloLombok](../img/2024/Jan/2024-01-29-springboot-devtool/lombok/4.HelloLombok.png)
+  - ![HelloLombok](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/lombok/4.HelloLombok.png)
   - 롬복을 활용하면 setHello, setLombok, getHello, getLombok 등의 메서드를 별도 작성하지 않아도 됩니다.
-
+  - ![contructor](../assets/img/uploads/2024/jan/2024-01-29-springboot-devtool/lombok/5.RequiredArgsConstructor.png)
+  - args 생성자가 필요합니다.

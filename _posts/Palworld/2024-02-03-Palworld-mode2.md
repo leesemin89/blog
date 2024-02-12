@@ -5,9 +5,9 @@ title: 팰월드 모드 제작법2
 subtitle: 팰월드 모드 제작 설정.
 description: 
 image: 
-  '../img/2024/feb/2024-02-03-palworld/title.jpg'
+  '../assets/img/uploads/2024/feb/2024-02-03-palworld/title.jpg'
 optimized_image:    
-  './img/2024/feb/2024-02-03-palworld/p_title.jpg'
+  'assets/img/uploads/2024/feb/2024-02-03-palworld/p_title.jpg'
 category: [palworld]
 tags:  
 author: sammy
@@ -35,14 +35,14 @@ paginate: true
 위의 zip 파일을 받아 압축해제합니다.
 
 저장소를 다운 받으면 다음과 같습니다.
-![파일](../img/2024/feb/2024-02-03-palworld/main2/1.png)
+![파일](../assets/img/uploads/2024/feb/2024-02-03-palworld/main2/1.png)
 
 ## Wwise
 * 언리얼에서 SDK를 열기전 Wwise를 수동으로 통합해야 합니다. 
 * 게임에서 사용된 Wwise 버전과 엔진버전과 공식적으로 호환되지 않기에 수동으로 복사합니다.
 
 1. Wwise용 설치파일을 압축해제한 디렉터리를 열면 다음과 같습니다
-![wwise](../img/2024/feb/2024-02-03-palworld/main2/2.png)
+![wwise](../assets/img/uploads/2024/feb/2024-02-03-palworld/main2/1.png)
 2. `Unreal.5.0.tar.xz` 아카이브 압축을 풉니다.
     * 이 작업은 2번해야 할 수도 있습니다.
 3. 압축을 푼 `Wwise`폴더를 SDK 의 `Plugins` 폴더에 복사합니다.
@@ -62,7 +62,7 @@ C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.11.7933\SDK
    * include  
 1. 위에 나열된 폴더들을 이전에 생성한 `ThirdParty` 폴더에 복사합니다.  
 2. `vc170` 해당 폴더를 복사해 `vc160`폴더인 것처럼 복사후 이름을 바꿔 구조가 아래와 같게 만듭니다.   
-   ![복사](../img/2024/feb/2024-02-03-palworld/main2/3.png)
+   ![복사](../assets/img/uploads/2024/feb/2024-02-03-palworld/main2/1.png)
 * Wwise가 현재 언리얼 엔진 버전과 호환되지 않는다는 대화상자를 끄려면 :  
   텍스트 편집기나 IDE에서 `Plugins\Wwise` ->  `Wwise.uplugin`을 열고  
   `EngineVersion : 5.0.0` 에서 `EngineVersion : 5.1`로 엔트리를 바꿉니다. 
