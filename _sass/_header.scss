@@ -73,11 +73,12 @@ body {
     width: rem(30px);
     height: rem(30px);
     cursor: pointer;
-    margin: 0;
-    @include media(">=sm") {
-      margin: 0 rem(20px) 0 0;
-    }
-  }
+    margin: 0 rem(20px) 0 0; /* 수정된 부분 */
+    position: relative; /* 추가된 부분 */
+    top: auto; /* 추가된 부분 */
+    left: auto; /* 추가된 부분 */
+}
+
 
   .icon-search {
     width: rem(20px);
@@ -118,6 +119,7 @@ body {
       display: inline-block;
     }
   }
+  
   .tag-link{
     display: none;
     font-size: rem(13px);
@@ -134,8 +136,56 @@ body {
       display: inline-block;
     }
   }
-}
+  /* 드롭다운 버튼 */
+  .dropbtn{
+    display: none;
+    font-size: rem(13px);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: $themeColor;
+    color: $accentDark;
+    padding: rem(5px) rem(10px);
+    border-radius: rem(5px);
+    float: right;
+    margin: rem(5px) rem(15px) rem(5px) rem(5px);
+    cursor: pointer;
+    @include media(">=sm") {
+      display: inline-block;
+    }    
+  }
+  /* 드롭다운 컨텐츠 (기본적으로 숨김) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
 
+  /* 드롭다운 컨텐츠 보이기 (버튼 클릭 시) */
+  .dropdown-content.show {
+    display: block;
+  }
+
+  /* 드롭다운 링크 */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* 드롭다운 링크에 호버 효과 */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* 드롭다운 버튼에 호버 효과 */
+  .dropbtn:hover {
+    background-color: #2980b9;
+  }
+}
 body.main-page {
   background-color: #141414;
 
