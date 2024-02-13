@@ -8,7 +8,7 @@ image:
 optimized_image:    
   'assets/img/uploads/2024/feb/2024-02-09-localhost/p_title.png'
 category: blog
-tags: [ locahost, Blog ]
+tags: [ localhost, blog ]
 author: sammy
 paginate: true
 ---

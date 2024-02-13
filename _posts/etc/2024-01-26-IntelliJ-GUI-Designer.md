@@ -8,8 +8,8 @@ image:
   'assets/img/uploads/2024/jan/2024-01-26-intelliJ-GUI/title.png'
 optimized_image:    
   'assets/img/uploads/2024/jan/2024-01-26-intelliJ-GUI/p_title.png'
-category: abc
-tags: [IntelliJ, GUI, Designer]
+category: etc
+tags: [intelliJ, GUI, designer]
 author: sammy
 paginate: true
 ---

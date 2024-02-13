@@ -9,7 +9,7 @@ image:
 optimized_image:    
   'assets\img\uploads\2024\feb\2024-02-07-category-set/p_title.png'
 category: blog
-tags: [ VSCode, Category, Jekyll ]
+tags: [ VSCode, category, jekyll ]
 author: sammy
 paginate: true
 ---

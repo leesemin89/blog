@@ -8,8 +8,8 @@ image:
   'assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ_title.png'
 optimized_image:    
   'assets/img/uploads/2024/jan/2024-01-24-intelliJ/p_IntelliJ_title.png'
-category: abc
-tags:  [ IntelliJ, SQLight ]
+category: etc
+tags:  [ intelliJ, SQLight ]
 author: sammy
 paginate: true
 ---
