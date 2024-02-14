@@ -1,8 +1,7 @@
 ---
 layout: category
-title: palworld
+title: Palworld
 slug: palworld
-category: palworld
 permalink: 'category/palworld'
-description: 
+description: palwolrd category 
 ---

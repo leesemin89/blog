@@ -18,9 +18,9 @@
     <a href="{{ recommendation.url | prepend: site.baseurl }}" class="post-preview">
         <div class="image">
             {% if recommendation.optimized_image %}
-                <img src="{{ recommendation.optimized_image }}">
+                <img src="{{ site.baseurl }}/{{ recommendation.optimized_image }}">
             {% elsif recommendation.image %}
-                <img src="{{ recommendation.image }}">
+                <img src="{{ site.baseurl }}/{{ recommendation.image }}">
             {% else %}
                 <img src="/assets/img/off.jpg">
             {% endif %}

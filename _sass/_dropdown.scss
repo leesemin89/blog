@@ -1,0 +1,43 @@
+/* 드롭다운 버튼 */
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* 드롭다운 컨텐츠 (기본적으로 숨김) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* 드롭다운 컨텐츠 보이기 (버튼 클릭 시) */
+  .dropdown-content.show {
+    display: block;
+  }
+  
+  /* 드롭다운 링크 */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* 드롭다운 링크에 호버 효과 */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* 드롭다운 버튼에 호버 효과 */
+  .dropbtn:hover {
+    background-color: #2980b9;
+  }
+  

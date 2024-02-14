@@ -1,8 +1,6 @@
 ---
 layout: category
-title: etc
-slug: devlog
-category: etc
-permalink: 'category/etc'
-description: 
+title: Etc
+slug: etc
+description: A category for etc related posts.
 ---

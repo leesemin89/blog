@@ -3,13 +3,13 @@ date: 2024-01-24
 layout: post
 title: 인텔리J에 외부 라이브러리 추가하는 법
 subtitle: 인텔리J를 IDE로서 외부 라이브러리를 사용해보자
-description: 
+description: >-
 image: 
-  '../assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ_title.png'
+  'assets/img/uploads/2024/jan/2024-01-24-intelliJ/IntelliJ_title.png'
 optimized_image:    
   'assets/img/uploads/2024/jan/2024-01-24-intelliJ/p_IntelliJ_title.png'
-category: [ etc ]
-tags:  [ IntelliJ, SQLight ]
+category: etc
+tags:  [ intelliJ, SQLight ]
 author: sammy
 paginate: true
 ---
