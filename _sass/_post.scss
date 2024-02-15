@@ -234,7 +234,7 @@
 
   blockquote {
     @include center(rem(730px));
-    border-left: rem(5px) solid $texts;
+    border-left: rem(5px) solid gray;
     padding: 0 rem(10px);
     margin: rem(30px) auto;
     width: 90%;
@@ -247,7 +247,7 @@
 
     p {
       font-size: rem(17px);
-      color: rgba(0, 0, 0, 0.6);
+      color: rgba(127, 127, 127, 0.98);
       margin: 0;
       @include media(">=sm") {
         font-size: rem(20px);
@@ -277,7 +277,11 @@
       font-size: rem(20px);
     }
 
-    th,
+    th {
+      background-color: rgb(139, 148, 247);
+      border: rem(1px) solid #ccc;
+    }
+    
     td {
       border: rem(1px) solid #ccc;
       padding: rem(5px) rem(10px);
