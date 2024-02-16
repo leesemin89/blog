@@ -234,10 +234,12 @@
 
   blockquote {
     @include center(rem(730px));
-    border-left: rem(5px) solid gray;
+    border-left: rem(5px) solid rgb(45, 89, 208);
     padding: 0 rem(10px);
     margin: rem(30px) auto;
     width: 90%;
+    border-radius: 0.2rem;
+    background-color:antiquewhite;
 
     @include media(">=sm") {
       width: 100%;
