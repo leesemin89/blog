@@ -141,7 +141,7 @@
     code {
       font-size: rem(15px);
       background: #282a36;
-      color: #fff;
+      color: #cfc6c6;
       word-wrap: break-word;
       padding: rem(3px) rem(5px);
       border-radius: 3px;
@@ -239,7 +239,7 @@
     margin: rem(30px) auto;
     width: 90%;
     border-radius: 0.2rem;
-    background-color:antiquewhite;
+    background-color:rgb(131, 129, 147);
 
     @include media(">=sm") {
       width: 100%;
@@ -249,7 +249,7 @@
 
     p {
       font-size: rem(17px);
-      color: rgba(127, 127, 127, 0.98);
+      color: rgba(0, 0, 0, 0.98);
       margin: 0;
       @include media(">=sm") {
         font-size: rem(20px);
