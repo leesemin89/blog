@@ -1,49 +1,73 @@
+/* 코드 블록 스타일 */
 pre.highlight {
-    padding: 8px 12px;
-    position: relative;
+  padding: 8px 12px;
+  position: relative;
+  overflow-y: auto; /* 세로 스크롤바 자동 표시 */
 
-    // override skeleton styles
-    > code {
+  /* 스크롤바 스타일 */
+  scrollbar-width: thin; /* Firefox용 스크롤바 너비 */
+  scrollbar-color: #888 #f1f1f1; /* Firefox용 스크롤바 색상 */
+
+  /* 웹킷 브라우저(Chrome, Safari 등)용 스크롤바 스타일 */
+  &::-webkit-scrollbar {
+      width: 12px; /* 스크롤바의 너비 */
+  }
+
+  &::-webkit-scrollbar-track {
+      background: #f1f1f1; /* 스크롤바 트랙 배경색 */
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background: #888; /* 스크롤바 썸 색상 */
+      border-radius: 6px; /* 스크롤바 썸 모서리의 둥글기 정도 */
+  }
+
+  /* 옵션: 마우스 오버시 스크롤바 썸 스타일 */
+  &::-webkit-scrollbar-thumb:hover {
+      background: #555; /* 마우스 오버시 스크롤바 썸 색상 */
+  }
+
+  /* 기타 스타일링 */
+  > code {
       border: 0;
       overflow-x: auto;
       padding-right: 0;
       padding-left: 0;
-    }
+  }
 
-    &.highlight {
+  &.highlight {
       border-left: 15px solid #35383c;
       color: #c1c2c3;
-      overflow: auto;
       white-space: pre;
       word-wrap: normal;
 
       &,
       code {
-        background-color: #222;
-        font-size: 14px;
+          background-color: #222;
+          font-size: 14px;
       }
-    }
+  }
 
-    // copy code to clipboard
-    .copy {
+  /* 코드 복사 버튼 스타일 */
+  .copy {
       color: #4AF626;
       position: absolute;
-      right: 1.2rem;
-      top: 1.2rem;
+      right: 0.6rem;
+      top: 0.6rem;
       opacity: 0;
 
       &:active,
       &:focus,
       &:hover {
-        background: rgba(0, 0, 0, 0.7);
-        opacity: 1;
+          background: rgba(0, 0, 0, 0.7);
+          opacity: 1;
       }
-    }
+  }
 
-    &:active .copy,
-    &:focus .copy,
-    &:hover .copy {
+  &:active .copy,
+  &:focus .copy,
+  &:hover .copy {
       background: rgba(0, 0, 0, 0.7);
       opacity: 1;
-    }
   }
+}
