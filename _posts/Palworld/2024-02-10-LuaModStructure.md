@@ -5,9 +5,9 @@ title: 팰월드 모드 제작법5
 subtitle: 루아모드 구조에 대해 알아보자
 description: 
 image: 
-  'assets/img/uploads/2024/feb/2024-02-03-palworld/title.jpg'
+  'assets/img/uploads/2024/feb/palworldmodingproject/title.jpg'
 optimized_image:    
-  'assets/img/uploads/2024/feb/2024-02-03-palworld/p_title.jpg'
+  'assets/img/uploads/2024/feb/palworldmodingproject/p_title.jpg'
 category: palworld
 tags:  [ palworld, mod, devlog ]
 author: sammy
@@ -26,6 +26,6 @@ paginate: true
 폴더를 열고 `main.lua` 파일을 생성합니다. 이 파일은 모드의 진입점이자 모든 로직이 처리되는 파일입니다.
 
 폴더 구조는 다음과 같습니다.  
-![폴더구조](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/1.folderlogic.png)
+![폴더구조](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-10-LuaModStructure/1.folderlogic.png)
 이제 `main.lua` 파일을 열고 코드를 써봅시다.
 
