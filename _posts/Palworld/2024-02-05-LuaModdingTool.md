@@ -5,9 +5,9 @@ title: 팰월드 모드 제작법4
 subtitle: 루아모딩과 그 툴에 대해서
 description: 
 image: 
-  'assets/img/uploads/2024/feb/2024-02-03-palworld/title.jpg'
+  'assets/img/uploads/2024/feb/palworldmodingproject/title.jpg'
 optimized_image:    
-  'assets/img/uploads/2024/feb/2024-02-03-palworld/p_title.jpg'
+  'assets/img/uploads/2024/feb/palworldmodingproject/p_title.jpg'
 category: palworld
 tags:  [ palworld, mod, devlog ]
 author: sammy
@@ -92,8 +92,8 @@ Asset Swapping 튜토리얼의 설치 단계를 따르십시오.
   1. FModel에서 Pal/Content/Pal 폴더를 엽니다.
   2. 데이터 테이블을 마우스 오른 클릭합니다.
   3. "Save Folder's Packages Properties (.json)"을 클릭합니다.
-![1](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-05-LuaModdingTool/1.png)
-![2](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-05-LuaModdingTool/2.png)
+![1](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-05-LuaModdingTool/1.png)
+![2](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-05-LuaModdingTool/2.png)
 
 ## VSCode
 *****
@@ -105,7 +105,7 @@ Asset Swapping 튜토리얼의 설치 단계를 따르십시오.
   - `Binaries\Win64` 폴더로 이동하여 이전에 생성한 `Mods`와 `CXXHeaderDump` 폴더를 추가합니다.
   - 그런 다음 방금 FModel에서 덤프한 `DataTable` 폴더도 추가해야 합니다.
   - 그 워크스페이스를 원하는 대로 저장할 수 있습니다. 아래 사진과 유사하게 보일 것입니다.
-    ![3](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-05-LuaModdingTool/3.png)
+    ![3](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-05-LuaModdingTool/3.png)
 
 당신의 개발 관련 모든 것은 Mods/YOUR_MOD_FOLDER에 있을 것이며, 헤더 파일을 검색하려면 CXXHeaderDump를 사용하고, 데이터 테이블을 검색하려면 DataTable 폴더를 사용하면 됩니다.
 ```markdown

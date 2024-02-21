@@ -5,9 +5,9 @@ title: 팰월드 모드 제작법7
 subtitle: 후킹 함수 개요 보기.
 description: 
 image: 
-  'assets/img/uploads/2024/feb/2024-02-03-palworld/title.jpg'
+  'assets/img/uploads/2024/feb/palworldmodingproject/title.jpg'
 optimized_image:    
-  'assets/img/uploads/2024/feb/2024-02-03-palworld/p_title.jpg'
+  'assets/img/uploads/2024/feb/palworldmodingproject/p_title.jpg'
 category: palworld
 tags:  [ palworld, mod, devlog ]
 author: sammy
@@ -87,7 +87,7 @@ end)
   여전히 메시지가 출력되지 않으면 `mods.txt` 를 편집해 모드를 포함하고 해당 모드를 활성화합니다.
   ```
 로그는 아래와 같습니다.  
-![로그](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/2.print.png)
+![로그](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-10-LuaModStructure/2.print.png)
 
   ```markdown
   ❕NOTE
@@ -113,11 +113,11 @@ end)
 ```
 이렇게 하고 나면 UE4SS에서 `Restart All Modes` 버튼을 누를수 있습니다.
 
-![리스타트버튼](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/3.restartButton.png)
+![리스타트버튼](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-10-LuaModStructure/3.restartButton.png)
 
 모드를 다시 로드한 후 타이틀 화면으로 돌아가 월드에 재접속하십시오.
 이제 파티에 있는 팰을 하나 던져보면 콘솔에 다음과 같이 출력됩니다.  
-![콘솔로그](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/4.consolLog.png)
+![콘솔로그](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-10-LuaModStructure/4.consolLog.png)
 
 이제 누가 파티에서 팰을 소환할때마다 알림을 받게 됩니다.
 이제 유용한 작업을 수행해봅시다. 이 튜토리얼의 목적을 위한 팰을 약간 축소시켜봅니다.
@@ -161,6 +161,6 @@ A : 우리가 후크 내부에서 얻는 일부 매개변수는 실제로 우리
 
 따라서 이 코드는 컴포넌트 인스턴스를 가져와 현재 활성 슬롯 인덱스로부터 친구 액터를 가져온 다음, 해당 액터의 3D 액터 스케일을 원래 값의 60%로 설정합니다. 게임으로 이동하여 확인해 보겠습니다!
 
-![팰사이즈](../assets/img/uploads/2024/feb/2024-02-03-palworld/2024-02-10-LuaModStructure/5.palSize.jpg)
+![팰사이즈](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-10-LuaModStructure/5.palSize.jpg)
 
 
