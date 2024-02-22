@@ -30,7 +30,7 @@ URL의 프리픽스가 모두 `/question`으로 시작한다는 것을 알 수 �
 메서드 단위에서는 `/question`을 생략하고 그 뒷부분만을 적으면 된다.
 
 이 내용을 바탕으로 다음과 같이 `QuestionController.java`를 수정해 보자.  
-[파일명:/question/QuestionController.java]
+>[파일명:/question/QuestionController.java]
 
 ```java
 (... 생략 ...)
