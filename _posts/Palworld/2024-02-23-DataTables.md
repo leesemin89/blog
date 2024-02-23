@@ -1,7 +1,7 @@
 ---
 date: 2024-02-23 00:01:10
 layout: post
-title: 팰월드 모드 제작법10
+title: 팰월드 모드 제작법11
 subtitle: 데이타테이블
 description: 
 image: 
