@@ -28,6 +28,7 @@ UE4SS에는 내장된 Lua API 가 함께 제공되며, 그 중 일부는 우리�
 *****
 _SomeFunction_에 연결된 이 후크는 해당 _SomeFunction_이 실행된 후 발동합니다.
 ex) 현재 스크립트에서 가장 흔히 볼 수 있는 `RegisterHook` 중 하나:
+
 ```lua
 RegisterHook("/Script/Engine.PlayerController:ClientRestart", function (Context) 
     -- do something
@@ -47,6 +48,7 @@ end)
 
 하지만 이 후크도 데디케이티드 서버에 대해서는 작동하지 않습니다. 
 그래서 여기서 더 나은 방법을 알려드립니다.
+
 ```lua
 RegisterHook("/Script/Engine.PlayerController:ServerAcknowledgePossession", function(Context)
     -- do something
@@ -61,6 +63,7 @@ end)
 이 콜백함수의 형식은 항상 다음과 같습니다 : `function(UObject self, UFunctionParams)`
 
 `StupidFunction(Bool is True, int Id, string Message)` 가 있다고 가정하면, 
+
 ```lua
 RegisterHook("/Script/Example.SomeObject:StupidFunction", function(Context, isTrue, Id, Message)
     print("This message is: " .. Message:get())
@@ -105,7 +108,8 @@ end)
 ```
 하지만 그렇게 하면 어리석은 방법입니다. 왜냐하면 그 후크가 발동될 때마다 새로운 알림이 생성되기 때문입니다.
 2명의 신규 플레이어가 게임에 참여했을때, 이제 3개의 NotifyOnNewObject가 있습니다. 
-기억하세요, 이들은 발동할 때마다 내부의 모든 것을 실행합니다. 그러니 그것을 감싸세요. 
+기억하세요, 이들은 발동할 때마다 내부의 모든 것을 실행합니다. 그러니 그것을 감싸세요.
+
 ```lua
 local not_hooked = true
 RegisterHook("/Script/Engine.PlayerController:ServerAcknowledgePossession", function(Context)
@@ -140,6 +144,7 @@ PalUtil:AwesomeFunction()
 이것은 객체를 찾는데 사용합니다. 여러가지가 있고 그 중 아마도 가장 많이 사용할만한 것은 FindFirstOf 와 FindAllOf 입니다만, FindObject와 FindObjects도 있습니다.
 
 첫 두개는 짧은 이름을 사용할 수 있습니다. 긴 이름이 필요하지 않아 좋고 다음과 같이 씁니다:
+
 ```lua
 local player = FindFirstOf("PalPlayerCharacter")
 ```
@@ -149,12 +154,14 @@ local player = FindFirstOf("PalPlayerCharacter")
 *****
 이전 예제에서 ExcuteWithDelay를 보았습니다. 이들은 각자의 방식으로 때론 유용하며 가끔 사용될 것입니다.
 때로는 어떤 일이 조금 늦게 발생하도록 만들고 싶을 때가 있는데, 그런 경우에 이렇게 사용합니다:
+
 ```lua
 ExecuteWithDelay(later_in_ms, function()
     --something
 end)
 ```
 가끔은 일정한 간격을 가지고 뭔가 발생하기를 원할때도 있습니다, 이 경우에는 다음과 같이 사용합니다:
+
 ```lua
 LoopAsync(every_so_often, function()
     --something
@@ -166,11 +173,13 @@ end)
 *****
 FName과 FText 는 UE가 어떤 이유로 사용하는 특별한 문자열 기반 요소입니다. 왜 그런지는 잘 모릅니다. 
 다만 이런 요소들이 Lua에서는 귀찮다는 것만 알고 있습니다. 만약 문자열을 FName이나 FText로 변환해야 하면 다음과 같은 함수를 사용할 수 있습니다:
+
 ```lua
 local fname = FName(some_fname)
 local ftext = FText(some_text)
 ```
 어떤 함수가 귀찮은 데이터를 전달해주면 그것을 역으로 처리할 수 있습니다:
+
 ```lua
 RegisterHook("/idk/some:function", function(fname_param, ftext_param)
     local cool_string = fname_param:get():ToString()
@@ -183,12 +192,14 @@ end)
 ## Callback Functions
 *****
 명확히 하려면:
+
 ```lua
 RegisterHook("/idk/some:function", function(self)
     --some complicated logic
 end)
 ```
 아니면 이렇게 쓸수도 있습니다:
+
 ```lua
 local function complicatedFunction(self)
     --some complicated logic
