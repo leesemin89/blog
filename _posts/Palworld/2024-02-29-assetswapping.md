@@ -1,8 +1,8 @@
 ---
 date: 2024-02-29 00:01:10
 layout: post
-title: 팰월드 모드 제작법12
-subtitle: 루아 베이직
+title: 팰월드 모드 제작법13
+subtitle: 에셋스와핑
 description: 
 image: 
   'assets/img/uploads/2024/feb/palworldmodingproject/title.jpg'
