@@ -37,10 +37,10 @@ paginate: true
 ## 시작하기
 *****
 먼저 FModel을 열어보세요. 디렉토리 선택기 창이 열릴 것입니다. 팰월드가 첫 번째 드롭다운 목록에 없는 경우 감지되지 않은 게임을 추가하려면 교환 화살표 기호를 클릭하세요.
-![Fmodel](../assets\img\uploads\2024\feb\palworldmodingproject\2024-02-29-AssetSwapping\1.png)
+![Fmodel](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-29-AssetSwapping/1.png)
 
 이름을 `Palworld`로 지정하십시오 (또는 원하는대로 지정하셔도 됩니다. 중요하지 않습니다.) 
-기본적으로 `C:\Program Files (x86)\Steam\steamapps\common\Palworld\`에 위치한 Palworld 실행 파일 디렉토리로 디렉토리를 변경하십시오. 해당 디렉토리를 찾을 수 없는 경우 `Steam 라이브러리로 이동하여 -> 마우스 오른쪽 버튼 클릭 -> Palworld -> 관리 -> 로컬 파일 찾아보기`를 선택하고 해당 경로를 디렉토리 섹션에 복사하십시오.
+기본적으로 `C:/Program Files (x86)/Steam/steamapps/common/Palworld/`에 위치한 Palworld 실행 파일 디렉토리로 디렉토리를 변경하십시오. 해당 디렉토리를 찾을 수 없는 경우 `Steam 라이브러리로 이동하여 -> 마우스 오른쪽 버튼 클릭 -> Palworld -> 관리 -> 로컬 파일 찾아보기`를 선택하고 해당 경로를 디렉토리 섹션에 복사하십시오.
 
 확인을 클릭하고 FModel 설정으로 이동하십시오. `Output Directory`를 쉽게 찾을 수 있는 곳으로 변경하십시오. 
 `GAME` 섹션에서 `UE 버전`을 `GAME_UE5_1`로 변경하십시오. `ADVANCED` 섹션에서 `Local Mapping File`을 선택하고 `Mapping File Path`를 이전에 다운로드한 [Palworld 매핑 파일](https://github.com/KURAMAAA0/PalModding/raw/main/Assset%20Swap%20Guide/Mappings.usmap)로 변경하십시오.

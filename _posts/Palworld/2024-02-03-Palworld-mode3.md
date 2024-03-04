@@ -43,7 +43,7 @@ paginate: true
 5. `pakchunk{Your Chunk ID}-Windows.pakPaks`가 Paks output 폴더에 있을 것입니다. 
    * 이름을 원하는 모드 이름으로 바꾸십시오.
 
-* `Palworld\Pal\Binaries\Win64\Mods\mods.txt` 의 BPModeLoader 가 활성화 되어 있어야 합니다.
+* `Palworld/Pal/Binaries/Win64/Mods/mods.txt` 의 BPModeLoader 가 활성화 되어 있어야 합니다.
   ![활성화](../assets/img/uploads/2024/feb/palworldmodingproject/main3/6.png)
 
   ---

@@ -102,7 +102,7 @@ Asset Swapping 튜토리얼의 설치 단계를 따르십시오.
 
 ### 모딩 셋업
   - 설치가 완료되면 새 창을 열고 `File` -> `Add Folder to Workspace`
-  - `Binaries\Win64` 폴더로 이동하여 이전에 생성한 `Mods`와 `CXXHeaderDump` 폴더를 추가합니다.
+  - `Binaries/Win64` 폴더로 이동하여 이전에 생성한 `Mods`와 `CXXHeaderDump` 폴더를 추가합니다.
   - 그런 다음 방금 FModel에서 덤프한 `DataTable` 폴더도 추가해야 합니다.
   - 그 워크스페이스를 원하는 대로 저장할 수 있습니다. 아래 사진과 유사하게 보일 것입니다.
     ![3](../assets/img/uploads/2024/feb/palworldmodingproject/2024-02-05-LuaModdingTool/3.png)
