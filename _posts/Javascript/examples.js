@@ -1,6 +1,5 @@
-//examples
-
-var firstName = "John";
-var lastname = "Wick";
-
-console.log('Hello, ' + firstName + ' '+ lastname);
+let isChecked = false;
+let isAdmin = true;
+let isVisiable = true;
+let isOnline = false;
+let hasAc
