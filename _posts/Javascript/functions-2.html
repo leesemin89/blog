@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions Assignment 2</title>
+</head>
+<body>
+    <script>
+        let double = function(num){
+            return num * 2;
+        }
+        let triple = function(num){
+            return num * 3;
+        }
+        function apply(num, func){
+            return func(num);
+        }
+        console.log(apply(2, double));
+        console.log(apply(3, triple));        
+        </script>
+</body>
+</html>
