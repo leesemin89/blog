@@ -1,13 +1,11 @@
-let age = 25;
-let citizenship = "Non-US";
+var name = "John";
+var age = 30;
+var address = "USA";
 
-if(age >= 18 && (citizenship === "US" || citizenship === "EU")){
-    console.log("Eligible for the program");
-} else{
-    console.log("Not Eligible for the program");
+function someFunction(){
+    var name = "Jane";
+    console.log(name); // logs "Jane" to console.
 }
-if (!(age < 18)){
-    console.log("Age is 18 or older");
-} else {
-    console.log("Age is less than 18");
-}
+
+someFunction();
+console.log(name);
