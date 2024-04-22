@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Arrays Assignment 1</title>
+</head>
+<body>
+    <script>
+        let fruits = [];
+        fruits.push("apple", "banana", "pear", "strawberry")
+        console.log(fruits);
+
+        let fruitsString = fruits.join(',');
+        console.log(fruitsString);
+        
+        let someFruits = fruits.slice(1,4);
+        someFruits.splice(2, 1);
+        console.log(someFruits);
+
+        let moreFruits = ["papaya", "guava", "jackfruit"];
+        let combinedFruits = fruits.concat(moreFruits);
+        console.log(combinedFruits);
+
+        let result = combinedFruits.indexOf("papaya");
+        console.log(result);
+
+    </script>
+</body>
+</html>

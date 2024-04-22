@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let i = 1 ; i < 11; i++){
+            if(i === 5){
+                continue;                
+            }
+            console.log(i);
+        }
+
+        let k = 2;
+        while(k < 11){
+            if(k === 8){
+                break;
+                
+            }
+            console.log(k);
+            k++;
+        }
+        const strings = ["apple", "", "orange", "", "banana"];
+        for(let j = 0; j < strings.length; j++){
+            const currentString = strings[j];
+            if(currentString === ""){
+                continue;
+            }console.log(currentString);
+
+        }
+    </script>
+</body>
+</html>
