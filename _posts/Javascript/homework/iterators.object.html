@@ -27,9 +27,14 @@
             }
         }
         };
-        
-        const person1 = Object.creat(person);
-        
+        const people = [
+            { name: "Alice", age: 25},
+            { name: "AJ", age: 30}
+    ];
+
+        for(const person of people){
+            console.log(`name: ${person.name}, ${person.age}`);
+        }
 
     </script>
 </body>
